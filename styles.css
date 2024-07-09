@@ -1,0 +1,38 @@
+.conteudo1 {
+   /* border: 1px solid grey; */
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    visibility:hidden;
+}
+
+.curriculo {
+ /*   border: 1px solid grey;  */
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    background-image: url(assets/1_grvlouewmaa55n5-38635246.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo2 {
+  /*  border: 1px solid grey;  */
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    visibility: hidden;
+}
+
+.conteudo1, .curriculo, .conteudo2 {
+    margin: 100px;
+}
+
+    #divGeral {
+        display: flex;
+        justify-content: center;
+    }
